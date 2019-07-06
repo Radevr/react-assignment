@@ -2,7 +2,7 @@ const React = require('react');
 const ReactDom = require('react-dom');
 const { hot } = require('react-hot-loader/root');
 
-const Gugudan = require('./gugudan.jsx');
+const Gugudan = require('./gugudan');
 
 const Hot = hot(Gugudan);
 

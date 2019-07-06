@@ -1,7 +1,6 @@
-// const React = require('react');
-// const { Component } = React;
-// 아래와 같음
-import  React, { Component } from 'react';
+const React = require('react');
+const { Component } = require('react');
+//import React, { Component } from 'react';
 
 class Gugudan extends Component {
     state = {
@@ -85,4 +84,5 @@ class Gugudan extends Component {
 //     )
 // };
 
-module.exports = Gugudan;
+module.exports =  Gugudan
+// export default Gugudan;
